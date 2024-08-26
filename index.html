@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra de Viagens</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.png">
+</head>
+
+<body>
+ 
+  <div id="accessibility-button">
+    <button id="toggle-accessibility">
+      <span class="accessibility-icon" aria-hidden="true">🌕</span> Modo Noturno
+    </button>
+  </div>
+
+  <header>
+
+    <h1>Viagem.com</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="destino.html">Destinos</a></li>
+        <li><a href="reserva.html">Reservas</a></li>
+        <li><a href="conta.html">Contato</a></li>
+        <li><a href="indica.html">Nossa Indicação</a></li>
+        <li><a href="cadastro.html">Cadastrar</a></li>
+        <li><a href="sobre.html">Sobre nós</a></li>
+        <li><a href="avaliacao.html">Avaliações</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <input type="text" id="searchInput" placeholder="O que você deseja procurar?">
+    <ul id="results"></ul>
+
+
+    <h2>Destinos Populares</h2>
+
+    <div id='banner'></div>
+
+    <section class="pesquisa">
+
+      <h2>Pesquise sua Viagem</h2>
+
+      <div class='formulario'>
+
+        <form action="#" method="get">
+
+          <label for="data-ida">Data de Ida:</label>
+          <input type="date" id="data-ida" name="data-ida" required>
+
+          <label for="data-volta">Data de Volta:</label>
+          <input type="date" id="data-volta" name="data-volta" required>
+
+          <label for="destino">Origem:</label>
+          <input type="text" id="destino" name="destino" required>
+
+          <label for="num-pessoas">Destino:</label>
+          <input type="text" id="num-pessoas" name="num-pessoas" min="1" required>
+
+          <input type="submit" value="Pesquisar">
+      </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class='final'></div>
+      <p>&copy; 2023 Agência de Viagem.com</p>
+    </footer>
+
+    <script src = "script.js"> </script>
+   
+</body>
+
+</html>

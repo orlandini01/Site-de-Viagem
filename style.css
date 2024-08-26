@@ -1,0 +1,463 @@
+/*            PARTE GERAL                                   */
+
+#container{
+    width: 1200px;
+    height: 1300px;
+    margin: auto;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    
+    header {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav li {
+        display: inline;
+        margin: 0 20px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    footer {
+      background-color: #007BFF;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    .final{
+    background-color: #007BFF;
+    width: 1200px;
+    height: 25px;
+    margin: auto;
+    background-image: url('Final.jpeg');
+    background-repeat: no-repeat;
+    }
+    
+    /*     ///            PARTE GERAL      ///                     */
+    
+    /*         DESTINOS POPULARES(Página Principal)               */        
+    
+    #banner {
+      width: 1200px;
+      height: 280px;
+      margin: auto;
+      background-color: white;
+      position: center;
+    }
+      
+    
+    
+    /*    ///       DESTINOS POPULARES               ///  */
+    
+    
+    /*         BARRA DE PESQUISA(Página Principal)                */        
+    
+    #searchInput {
+        width: 300px;
+        padding: 10px;
+        border: none;
+        border-radius: 20px; 
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 16px;
+        margin: 0 auto;
+        display: block;
+        outline: none;
+    }
+    
+    /*        //       BARRA DE PESQUISA               //      */
+    
+    
+    /*                     DESTINOS                              */
+    
+    .destinos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    
+    
+    .destino img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    
+    .destino h2 {
+        color: #007BFF; 
+        margin-top: 10px;
+    }
+    
+    .destino p {
+        color: #333;
+        margin-top: 10px;
+    }
+    
+    .destino a {
+        display: inline-block;
+        background-color: #007BFF; 
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .destino a:hover {
+        background-color: #0056b3;
+    }
+    
+    
+    /*      ///           DESTINOS             ///               */
+    
+    
+    /*                         RESERVA                           */
+    
+    .reserva-form {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .reserva-form h2 {
+        color: #007BFF; 
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #f5f5f5;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    
+    button[type="submit"] {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #0056b3; 
+    }
+    
+    .reserva-form p {
+        font-size: 14px;
+        color: #888; 
+    }
+    
+    /*          ///         RESERVA               ///            */
+    
+    
+    /*                    CONTATO                                */
+    .contato-form {
+        background-color: #fff; 
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .contato-form h2 {
+        color: #007BFF; 
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333; 
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #f5f5f5; 
+    }
+    
+    textarea {
+        height: 150px;
+    }
+    
+    button[type="submit"] {
+        background-color: #007BFF; 
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #0056b3; 
+    }
+    
+    .contato-form p {
+        font-size: 14px;
+        color: #888;
+    }
+    
+    /*         ///              CONTATO                 ///        */
+    
+    
+    /*                          PACOTES                            */
+    .pacotes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .pacote {
+        background-color: #fff; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .pacote img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    
+    .pacote h3 {
+        color: #007BFF; 
+        margin-top: 10px;
+    }
+    
+    .pacote p {
+        color: #333; 
+        margin-top: 10px;
+    }
+    
+    .pacote .preco {
+        font-weight: bold;
+        color: #007BFF; 
+    }
+    
+    
+    .pacote a {
+        display: inline-block;
+        background-color: #007BFF; 
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .pacote a:hover {
+        background-color: #0056b3; 
+    }
+    
+    .pacote a:active {
+        background-color: #003f80; 
+    }
+    
+    .accessibility-mode {
+        background-color: #000; 
+        color: #fff; 
+        font-family: Arial, sans-serif; 
+    }
+    
+    #accessibility-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #007BFF;
+        padding: 10px;
+        border-radius: 50%; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+    }
+    
+    #accessibility-button button {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      outline: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .accessibility-icon {
+        margin-right: 5px;
+        font-size: 20px; 
+    }
+    
+    .botao-cadastrar {
+        background-color: #007BFF;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .botao-cadastrar a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+    .botao-cadastrar a:hover {
+        background-color: #0056b3;
+    }
+    
+    .avaliacoes {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .avaliacao {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 20px 0;
+        padding: 20px;
+        text-align: left;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .avaliacao h3 {
+        color: #007BFF;
+    }
+    
+    .avaliacao-data {
+        font-style: italic;
+        color: #777;
+    }
+    
+    .avaliacao-texto {
+        margin-top: 10px;
+    }
+    
+    .slideshow-container {
+        position: relative;
+        max-width: 100%;
+        max-height: 400px;
+        margin: auto;
+    }
+    
+    .destino {
+        display: none;
+        text-align: center;
+    }
+    
+    .destino img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    

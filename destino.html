@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Destinos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+
+    <div id="accessibility-button">
+        <button id="toggle-accessibility">
+            <span class="accessibility-icon" aria-hidden="true">🌕</span> Modo Noturno
+        </button>
+    </div>
+    <header>
+        <h1>Explore Nossos Destinos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="destino.html">Destinos</a></li>
+                <li><a href="reserva.html">Reservas</a></li>
+                <li><a href="conta.html">Contato</a></li>
+                <li><a href="indica.html">Nossa Indicação</a></li>
+                <li><a href="cadastro.html">Cadastrar</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="avaliacao.html">Avaliações</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="destinos">
+            <div class="slideshow-container">
+                <div class="destino fade">
+                    <img src="Viagem 1.jpeg" alt="Destino 1">
+                    <h2>Orlando</h2>
+                    <p>Venha se divertir no parque mais completo do mundo.</p>
+                    <a href="reserva.html">Saiba Mais</a>
+                </div>
+                <div class="destino fade">
+                    <img src="Viagem 2.jpeg" alt="Destino 2">
+                    <h2>Cruzeiro do Neymar</h2>
+                    <p>Venha se divertir com o adulto Ney (o fiel).</p>
+                    <a href="reserva.html">Saiba Mais</a>
+                </div>
+                <div class="destino fade">
+                    <img src="Viagem 3.jpeg" alt="Destino 3">
+                    <h2>Roma</h2>
+                    <p>Venha se aventurar nas belezas históricas de Roma.</p>
+                    <a href="reserva.html">Saiba Mais</a>
+                </div>
+                
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+          
+        </section>
+    </main>
+    <footer>
+       <div class='final'></div>
+        <p>&copy; 2023 Agência de Viagem.com</p>
+    </footer>
+   <script src = "script.js"> </script>
+</body>
+</html>
